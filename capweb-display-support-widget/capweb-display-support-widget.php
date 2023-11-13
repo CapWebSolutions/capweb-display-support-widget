@@ -3,7 +3,7 @@
  * Plugin Name: Cap Web Solutions Display Support Widget 
  * Plugin URI: https://github.com/CapWebSolutions/DisplaySupportWidget
  * Description: This plugin displays the WPcare support widget on pages based on login status. 
- * Version: 1.0.0
+ * Version: 1.0.1
  * Author: Matt Ryan [Cap Web Solutions]
  * Author URI: https://github.com/CapWebSolutions/DisplaySupportWidget
  *
@@ -34,7 +34,7 @@ function capweb_display_freshdesk_support_widget () {
 		echo '<script type="text/javascript">';
 		echo 'FreshWidget.init("", {"queryString": "&widgetType=popup&formTitle=Request+Help&submitThanks=Thanks+for+requesting+support+from+Cap+Web+Solutions.+&screenshot=no&searchArea=no",
 		   "utf8": "✓", "widgetType": "popup", "buttonType": "text", "buttonText": "Request Help",
-		    "buttonColor": "white", "buttonBg": "#A95B6E", "alignment": "2", "offset": "235px",
+		    "buttonColor": "white", "buttonBg": "#546E91", "alignment": "2", "offset": "235px",
 		     "submitThanks": "Thanks for requesting support online. ", "formHeight": "500px",
 		      "screenshot": "no", "url": "https://capwebsolutions.freshdesk.com"} );';
 		echo '</script>';
@@ -48,7 +48,7 @@ function capweb_display_freshdesk_support_widget () {
 				echo '<script type="text/javascript">';
 				echo 'FreshWidget.init("", {"queryString": "&helpdesk_ticket[requester]=' . $current_user->user_email . '&widgetType=popup&formTitle=Request+Help&submitThanks=Thanks+for+requesting+support+from+Cap+Web+Solutions.+&screenshot=yes&searchArea=no",
 				   "utf8": "✓", "widgetType": "popup", "buttonType": "text", "buttonText": "Request Help",
-				    "buttonColor": "white", "buttonBg": "#A95B6E", "alignment": "2", "offset": "235px",
+				    "buttonColor": "white", "buttonBg": "#546E91", "alignment": "2", "offset": "235px",
 				     "submitThanks": "Thanks for requesting support online. ", "formHeight": "500px",
 				      "screenshot": "no", "url": "https://capwebsolutions.freshdesk.com"} );';
 				echo '</script>';
