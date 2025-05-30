@@ -3,7 +3,7 @@
  * Plugin Name: Cap Web Solutions Display Support Widget 
  * Plugin URI: https://github.com/CapWebSolutions/capweb-display-support-widget
  * Description: This plugin displays the WPcare support widget on pages based on login status. 
- * Version: 2.0.0
+ * Version: 2.0.1
  * Author: Matt Ryan [Cap Web Solutions]
  * Author URI: https://github.com/CapWebSolutions/capweb-display-support-widget
  *
