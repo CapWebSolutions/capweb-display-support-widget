@@ -1,11 +1,11 @@
 <?php
 /**
  * Plugin Name: Cap Web Solutions Display Support Widget 
- * Plugin URI: https://github.com/CapWebSolutions/DisplaySupportWidget
+ * Plugin URI: https://github.com/CapWebSolutions/capweb-display-support-widget
  * Description: This plugin displays the WPcare support widget on pages based on login status. 
- * Version: 1.0.1
+ * Version: 2.0.0
  * Author: Matt Ryan [Cap Web Solutions]
- * Author URI: https://github.com/CapWebSolutions/DisplaySupportWidget
+ * Author URI: https://github.com/CapWebSolutions/capweb-display-support-widget
  *
  * This program is free software; you can redistribute it and/or modify it under the terms of the GNU
  * General Public License version 2, as published by the Free Software Foundation.  You may NOT assume
